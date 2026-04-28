@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding-bottom: 60px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+
+    
+    
+}
+#tela{
+    border: 1px solid gray;
+    border-radius: 20px;
+    background: linear-gradient(white,grey,white);
+    width: 90%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto auto;
+    text-align: center;
+    height: auto;
+}
+#tela_hora{
+    border: 1px solid white;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin: auto auto;
+    width: 200px;
+    /*height: 100px;*/
+    padding: 20px;
+    font-size: 40px;
+}
+#tela_data{
+    border: 1px solid white;
+    border-radius: 20px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    margin: auto auto;
+    width: 200px;
+   /* height: 100px;*/
+    padding: 20px;
+    font-size: 30px;
+}
+span{
+    font-size: 30px;
+}
+@media (max-width: 500px){
+    #tela_hora{
+        font-size: 12vw;
+    }
+
+    #tela_data{
+        font-size: 6vw;
+    }
+}
+@media (min-width: 700px){
+   #tela{
+    width: 600px;
+   }
+}
